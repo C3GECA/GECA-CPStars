@@ -32,7 +32,7 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 1. Nextjs (Typescript preffered but porting can be done later)
 2. Tailwind with Shadcn Components
 3. Backend: Nextjs preffered but other can be used for now
-4. API: [clist.by](https://clist.by/) api for fetching profiles all at once (as some platforms do not provide api access)
+4. API: [clist.by](https://clist.by/api/v4/doc/) api for fetching profiles all at once (as some platforms do not provide api access)
 5. Framer-motion(Optional) - for animations
 
 ## Roadmap
