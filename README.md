@@ -5,6 +5,7 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 ## Table of Contents
 
 - [Features](#features)
+- [Expected Stack](#Expected-Stack)
 - [Roadmap](#roadmap)
   - [Phase 1: Initial Setup](#phase-1-initial-setup)
   - [Phase 2: Core Functionality](#phase-2-core-functionality)
@@ -25,6 +26,14 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 - **Search and Filter**: Enable users to search and filter the leaderboard based on different criteria.
 - **Responsive Design**: Ensure that the platform is accessible on various devices, including desktops, tablets, and mobiles.
 - **Real-Time Updates**: Keep the leaderboard updated with the latest data from competitive programming platforms.
+
+## Expected Tech Stack
+> May change according to requirement
+1. Nextjs (Typescript preffered but porting can be done later)
+2. Tailwind with Shadcn Components
+3. Backend: Nextjs preffered but other can be used for now
+4. API: [clist.by](https://clist.by/) api for fetching profiles all at once (as some platforms do not provide api access)
+5. Framer-motion(Optional) - for animations
 
 ## Roadmap
 
