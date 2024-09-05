@@ -2,6 +2,20 @@
 
 Welcome to the C-Cube Competitive Programming Leaderboard! This platform is designed to showcase the top-performing students from our college who are actively participating in competitive programming across platforms like Codeforces, LeetCode, and CodeChef.
 
+## Table of Contents
+
+- [Features](#features)
+- [Roadmap](#roadmap)
+  - [Phase 1: Initial Setup](#phase-1-initial-setup)
+  - [Phase 2: Core Functionality](#phase-2-core-functionality)
+  - [Phase 3: Advanced Features](#phase-3-advanced-features)
+  - [Phase 4: Final Touches](#phase-4-final-touches)
+- [Contribution Tasks](#contribution-tasks)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+
 ## Features
 
 - **Leaderboard Display**: Show a leaderboard with top students based on their ratings and achievements.
@@ -34,6 +48,20 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 - **Deployment**: Deploy the platform to a production environment.
 - **Feedback and Iteration**: Collect user feedback and make improvements based on suggestions.
 
+## Contribution Tasks
+- [ ] **Setup Repo**: Clone and configure the repository.
+- [ ] **Design UI**: Create mockups for the leaderboard and profiles.
+- [ ] **Build APIs**: Develop APIs for data retrieval.
+- [ ] **Frontend Dev**: Implement the leaderboard UI.
+- [ ] **Integrate APIs**: Connect UI with backend data.
+- [ ] **Fetch Data**: Implement data fetching from CP platforms.
+- [ ] **Sort Leaderboard**: Create sorting algorithms for rankings.
+- [ ] **Profile Details**: Display student profiles with ratings.
+- [ ] **Real-Time Data**: Implement live updates for leaderboard.
+- [ ] **Write Tests**: Develop unit and integration tests.
+- [ ] **Deploy**: Publish the platform online.
+- [ ] **Bug Fixes**: Address and fix reported issues.
+
 ## Getting Started
 
 1. **Clone the Repository**:
@@ -57,3 +85,8 @@ We welcome contributions from the community! To contribute:
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
