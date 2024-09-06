@@ -71,7 +71,7 @@ export default function Leaderboard() {
     })
 
     return result
-  }, [users, sortConfig, filter, platformFilter])
+  }, [sortConfig, filter, platformFilter])
 
   const requestSort = (key: keyof User | 'score') => {
     setSortConfig(prevConfig => ({
@@ -166,7 +166,7 @@ export default function Leaderboard() {
             className="pl-8"
           />
         </div>
-        <Select value={platformFilter} onValueChange={(value: any) => setPlatformFilter(value)}>
+        <Select value={platformFilter} onValueChange={(value: string) => setPlatformFilter(value as 'all' | 'codeforces' | 'leetcode' | 'hackerrank')}>
           <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Filter by platform" />
           </SelectTrigger>

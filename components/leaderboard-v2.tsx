@@ -105,7 +105,7 @@ export default function Leaderboard2() {
     })
 
     return result
-  }, [users, sortConfig, filter, platformFilter])
+  }, [sortConfig, filter, platformFilter])
 
   const requestSort = (key: keyof User | 'score') => {
     setSortConfig(prevConfig => ({
@@ -200,7 +200,7 @@ export default function Leaderboard2() {
             className="pl-8"
           />
         </div>
-        <Select value={platformFilter} onValueChange={(value: any) => setPlatformFilter(value)}>
+        <Select value={platformFilter} onValueChange={(value: string) => setPlatformFilter(value as 'all' | 'codeforces' | 'leetcode' | 'hackerrank')}>
           <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Filter by platform" />
           </SelectTrigger>
@@ -308,7 +308,7 @@ export default function Leaderboard2() {
                       </DialogTrigger>
                       <DialogContent className="sm:max-w-[425px]">
                         <DialogHeader>
-                          <DialogTitle>{user.name}'s Profile</DialogTitle>
+                          <DialogTitle>{user.name}&apos;s Profile</DialogTitle>
                         </DialogHeader>
                         <div className="flex flex-col items-center gap-4">
                           <Avatar className="w-20 h-20">
