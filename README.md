@@ -58,7 +58,7 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 - **Feedback and Iteration**: Collect user feedback and make improvements based on suggestions.
 
 ## Contribution Tasks
-- [x] **Setup Repo**: Clone and configure the repository.
+- [x] **Setup Repo**: Clone and configure the repository. [Set with nextjs(ts), shadcn, framer-motion]
 - [ ] **Design UI**: Create mockups for the leaderboard and profiles.
 - [ ] **Build APIs**: Develop APIs for data retrieval.
 - [ ] **Frontend Dev**: Implement the leaderboard UI.
@@ -68,7 +68,7 @@ Welcome to the C-Cube Competitive Programming Leaderboard! This platform is desi
 - [ ] **Profile Details**: Display student profiles with ratings.
 - [ ] **Real-Time Data**: Implement live updates for leaderboard.
 - [ ] **Write Tests**: Develop unit and integration tests.
-- [x] **Deploy**: Publish the platform online.
+- [x] **Deploy**: Publish the platform online.[Deployed on cloudflare pages]
 - [ ] **Bug Fixes**: Address and fix reported issues.
 
 ## Getting Started
