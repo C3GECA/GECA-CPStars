@@ -52,17 +52,17 @@ const TrendIcon = ({ trend }: { trend: 'up' | 'down' | 'neutral' }) => {
 const AchievementIcon = ({ achievement }: { achievement: string }) => {
   switch (achievement) {
     case 'fast-solver':
-      return <Trophy className="w-4 h-4 text-yellow-500" title="Fast Solver" />
+      return <Trophy className="w-4 h-4 text-yellow-500"/> // title="Fast Solver"
     case 'consistent':
-      return <Award className="w-4 h-4 text-blue-500" title="Consistent Performer" />
+      return <Award className="w-4 h-4 text-blue-500" /> // title="Consistent Performer"
     case 'top-contributor':
-      return <Star className="w-4 h-4 text-purple-500" title="Top Contributor" />
+      return <Star className="w-4 h-4 text-purple-500" /> // title="Top Contributor"
     case 'contest-winner':
-      return <Medal className="w-4 h-4 text-green-500" title="Contest Winner" />
+      return <Medal className="w-4 h-4 text-green-500" /> // title="Contest Winner"
     case 'mentor':
-      return <Users className="w-4 h-4 text-orange-500" title="Mentor" />
+      return <Users className="w-4 h-4 text-orange-500" /> // title="Mentor"
     case 'bug-crusher':
-      return <Zap className="w-4 h-4 text-indigo-500" title="Bug Crusher" />
+      return <Zap className="w-4 h-4 text-indigo-500" /> // title="Bug Crusher"
     default:
       return null
   }
