@@ -1,12 +1,9 @@
-import Leaderboard2 from "@/components/leaderboard-v2";
+import LandingPage from "@/components/molecules/landing-page";
 
 export default function Home() {
   return (
     <div>
-
-    {/* <Leaderboard /> */}
-    <Leaderboard2 />
-    
+      <LandingPage />
     </div>
   );
 }
