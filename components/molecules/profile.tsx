@@ -14,7 +14,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 // Mock data for the student profile
 const studentData = {
   name: "Alice Johnson",
-  email: "alice.johnson@geca.edu",
+  email: "alice.johnson@geca.ac.in",
   studentId: "2023CS001",
   avatar: "/placeholder.svg?height=100&width=100",
   overallRank: 3,

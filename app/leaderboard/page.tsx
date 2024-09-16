@@ -1,3 +1,3 @@
-import Leaderboard from "@/components/molecules/leaderboard";
+import Leaderboard2 from "@/components/molecules/leaderboard-v2";
 
-export default Leaderboard;
+export default Leaderboard2;

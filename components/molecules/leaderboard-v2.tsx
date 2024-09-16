@@ -1,5 +1,6 @@
 "use client"
 import { useState, useMemo, useEffect } from 'react'
+import Link from 'next/link'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
@@ -342,6 +343,7 @@ export default function Leaderboard2() {
                               ))}
                             </div>
                           </div>
+                          <div><Button><Link href="/demo-profile">Full Profile</Link></Button></div>
                         </div>
                       </DialogContent>
                     </Dialog>
